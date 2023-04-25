@@ -44,7 +44,7 @@ const TransactionCard: React.FC<TransactionCardProps> = ({
           </div>
           <div className={styles.transactionCardValue}>
             {formatValue(fromBalance._hex)}
-            {network === Network.Ethereum ? "ETH" : "MATIC"}
+            {network === Network.Ethereum ? " ETH" : " MATIC"}
           </div>
         </div>
         <div className={styles.transactionCardRow}>
@@ -55,7 +55,7 @@ const TransactionCard: React.FC<TransactionCardProps> = ({
           <div className={styles.transactionCardLabel}>to wallet Balance:</div>
           <div className={styles.transactionCardValue}>
             {formatValue(toBalance._hex)}
-            {network === Network.Ethereum ? "ETH" : "MATIC"}
+            {network === Network.Ethereum ? " ETH" : " MATIC"}
           </div>
         </div>
         <div className={styles.transactionCardRow}>
@@ -63,7 +63,7 @@ const TransactionCard: React.FC<TransactionCardProps> = ({
           <div className={styles.transactionCardValue}>
             {/* {parseInt(`${value._hex}`)} */}
             {formatValue(value?._hex)}{" "}
-            {network === Network.Ethereum ? "ETH" : "MATIC"}
+            {network === Network.Ethereum ? "ETH" : " MATIC"}
           </div>
         </div>
       </div>

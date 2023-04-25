@@ -64,7 +64,7 @@ const TransactionDetailsPage: React.FC = () => {
           <span className={styles.transactionDetailLabel}>Value:</span>
           <span className={styles.transactionDetailValue}>
             {formatValue(transaction?.value?._hex as string)}{" "}
-            {network === Network.Ethereum ? "ETH" : "MATIC"}
+            {network === Network.Ethereum ? " ETH" : " MATIC"}
           </span>
         </div>
       </div>
@@ -74,7 +74,7 @@ const TransactionDetailsPage: React.FC = () => {
           <span className={styles.transactionDetailLabel}>Gas Limit:</span>
           <span className={styles.transactionDetailValue}>
             {formatValue(transaction?.gasLimit?._hex as string)}{" "}
-            {network === Network.Ethereum ? "ETH" : "MATIC"}
+            {network === Network.Ethereum ? " ETH" : " MATIC"}
           </span>
         </div>
         <div className={styles.transactionDetailRow}>
