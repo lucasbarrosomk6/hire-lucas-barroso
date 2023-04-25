@@ -1,0 +1,39 @@
+.transactionDetailsPage {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.transactionDetailsPage h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.transactionDetailSection {
+  margin-bottom: 1.5rem;
+}
+
+.transactionDetailHeading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.transactionDetailRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.transactionDetailLabel {
+  font-weight: bold;
+}
+
+.transactionDetailValue {
+  text-align: right;
+}

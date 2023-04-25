@@ -1,0 +1,42 @@
+.transactionCard {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.transactionCardContent {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.transactionCardRow {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.transactionCardLabel {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: black;
+  flex-basis: 30%;
+}
+
+.transactionCardValue {
+  font-family: "Helvetica Neue", sans-serif;
+  color: black;
+  flex-basis: 70%;
+}
+
+.transactionCardValue a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.transactionCardValue a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
